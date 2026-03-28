@@ -1,8 +1,6 @@
-# Flask App - User Management
+# Book Management Flask App 📚
 
-This is a simple **Flask** app that implements a basic **User Management System** with RESTful API methods.
-
-## API Methods
+This project is a simple Flask application that implements a Book Management System using SQLite, which does not require any installation—the database file (books.db) and the Book table are automatically created when you run the app. It allows you to add new books, view all books, search by title or author, update existing book details, and delete books through RESTful API endpoints. Each book has an id, title, author, price, and a created_at timestamp, and the app returns data in JSON format. This system is perfect for learning how to build CRUD applications with Flask, manage SQLite databases, and work with REST APIs, all easily and without extra setup.
 
 ### 1. **GET /users**
    - **Method**: `GET`

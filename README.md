@@ -1,6 +1,28 @@
-# Book Management Flask App 📚
+## 📚 Book Management Flask App
 
-This project is a simple Flask application that implements a Book Management System using SQLite, which does not require any installation—the database file (books.db) and the Book table are automatically created when you run the app. It allows you to add new books, view all books, search by title or author, update existing book details, and delete books through RESTful API endpoints. Each book has an id, title, author, price, and a created_at timestamp, and the app returns data in JSON format. This system is perfect for learning how to build CRUD applications with Flask, manage SQLite databases, and work with REST APIs, all easily and without extra setup.
+This project is a simple **Flask application** that implements a **Book Management System** using **SQLite**, which **does not require any installation**—the database file (`books.db`) and the `Book` table are automatically created when you run the app.  
+
+It allows you to:  
+
+- **Add new books**  
+- **View all books**  
+- **Search by title or author**  
+- **Update existing book details**  
+- **Delete books**  
+
+All operations are performed through **RESTful API endpoints**. Each book has the following fields:  
+
+- `id`  
+- `title`  
+- `author`  
+- `price`  
+- `created_at` timestamp  
+
+The app returns all data in **JSON format**.  
+
+This system is perfect for learning how to build **CRUD applications** with Flask, manage **SQLite databases**, and work with **REST APIs**, all easily and without extra setup.
+
+## API Endpoints
 
 ### 1. **GET /users**
    - **Method**: `GET`
@@ -131,4 +153,4 @@ To test this Flask API using **Postman**:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flask-app.git
+   https://github.com/Ankita-Buildss/Flask-App
